@@ -1,6 +1,4 @@
 # projectwindow
 window game
 
-
-
-i hate gay people -ShieldedAsh
+a game about windows
