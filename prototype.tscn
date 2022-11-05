@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://kinematics.gd" type="Script" id=1]
 [ext_resource path="res://firefox_emLB4qKytC.png" type="Texture" id=2]
 [ext_resource path="res://tilesheet.webp" type="Texture" id=3]
+[ext_resource path="res://health bar theme.tres" type="Theme" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 13, 25 )
@@ -53,3 +54,10 @@ texture = ExtResource( 2 )
 tile_set = SubResource( 3 )
 format = 1
 tile_data = PoolIntArray( 131071, 0, 0, 65536, 0, 0, 65537, 0, 0, 65538, 0, 0, 131075, 0, 0, 131076, 0, 0, 131077, 0, 0, 131078, 0, 0, 131079, 0, 0 )
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+margin_left = 15.0
+margin_top = 543.0
+margin_right = 255.0
+margin_bottom = 578.0
+theme = ExtResource( 4 )
