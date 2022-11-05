@@ -52,4 +52,4 @@ texture = ExtResource( 2 )
 [node name="TileMap" type="TileMap" parent="Node2D"]
 tile_set = SubResource( 3 )
 format = 1
-tile_data = PoolIntArray( 131071, 0, 0, 65536, 0, 0, 65537, 0, 0, 65538, 0, 0 )
+tile_data = PoolIntArray( 131071, 0, 0, 65536, 0, 0, 65537, 0, 0, 65538, 0, 0, 131075, 0, 0, 131076, 0, 0, 131077, 0, 0, 131078, 0, 0, 131079, 0, 0 )
