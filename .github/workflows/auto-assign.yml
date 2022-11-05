@@ -1,2 +1,11 @@
-- name: Auto Assign Issues/PRs
-  uses: wow-actions/auto-assign@v2.0.0
+- name: Auto Assignment
+  # You may pin to the exact commit or the version.
+  # uses: kyoya0819/auto-assignment@cbc262de412dbf146eb33adc2a68863ccb52dafc
+  uses: kyoya0819/auto-assignment@v1.2.2
+  with:
+    # GitHub token
+    token: 
+    # Users name of the person to be assigned. (JSON format)
+    users: 
+    # Number of Users to be assigned. If not entered, everyone will be assigned.
+    count: # optional
