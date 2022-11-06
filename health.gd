@@ -1,4 +1,4 @@
-extends KinematicBody2D
+extends CollisionShape2D
 
 signal damaged(by)
 signal killed()
@@ -7,6 +7,7 @@ signal killed()
 var health_max = 10
 
 var health = 10
+
 
 func take_damage(impact):
 	impact = clamp(impact, 0.0, 1.0)
@@ -21,3 +22,5 @@ func take_damage(impact):
 	if health <= 0.0:
 		emit_signal("killed")
 	
+func update_healthbar(health):
+	get_node("ProgressBar").set_value(health)
